@@ -1,0 +1,12 @@
+.createPost {
+  border: 1px solid gray;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+.createPost > button {
+  color: #0095f6 !important;
+}

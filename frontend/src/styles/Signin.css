@@ -1,0 +1,30 @@
+.signin__card {
+  margin: auto;
+  margin-top: 50px;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.signin__card > img {
+  width: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.signin__input {
+  width: 250px;
+  margin: 5px 45px;
+}
+.signin__button {
+  width: 210px;
+}
+
+.signin__pera {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.signin__link {
+  color: #0095f6 !important;
+}

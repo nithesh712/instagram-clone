@@ -1,0 +1,9 @@
+a {
+  color: black !important;
+}
+
+#toast-container {
+  top: 30px !important;
+  right: 30px !important;
+  left: auto !important;
+}

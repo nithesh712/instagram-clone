@@ -1,0 +1,100 @@
+.container__main {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  height: 100%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.container__header {
+  display: flex;
+  align-items: center;
+}
+
+.container__header > img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 80%;
+}
+.container__body,
+.container__main {
+  -webkit-box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container__body {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.container__body > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container__bodyIcons {
+  display: flex;
+  margin: 10px;
+}
+
+.container__bodyIcons .MuiSvgIcon-root {
+  margin: 2px 8px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.container__header > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 8px;
+  font-size: 30px;
+}
+
+.container__header > .MuiSvgIcon-root:hover {
+  color: red;
+}
+
+.container__bodyInput {
+  margin: 0px;
+  width: 80%;
+  border: 1px solid black;
+}
+.container__bodyFooter {
+  display: flex;
+}
+
+.container__bodyFooter > button {
+  color: #0095f6;
+  margin: 5px;
+}
+
+.container__body > h6,
+p {
+  margin-left: 15px;
+}
+.container__body > hr {
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .container__main {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container__main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100%;
+  }
+}

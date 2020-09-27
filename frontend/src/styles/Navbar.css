@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar__left > img {
+  width: 120px;
+  flex: 0.3;
+}
+
+.navbar__search {
+  width: 200px;
+  flex: 0.4;
+}
+
+.navbar__right {
+  display: flex;
+  flex: 0.4;
+}
+.navbar__link {
+  margin: 5px;
+  padding-right: 25px;
+}
+
+.navbar__right .MuiSvgIcon-root {
+  font-size: 25px;
+}
+.navbar__right .MuiAvatar-root {
+  width: 25px;
+  height: 25px;
+}
